@@ -21,6 +21,7 @@ namespace Teste.Dennys_Jun_Takao.ConsoleApp
 
             p.AvaliacaoTecnica1();
             p.SomaDeQuadrados();
+            p.AvaliacaoTecnica3();
 
             Console.ReadKey();
         }
@@ -64,6 +65,24 @@ namespace Teste.Dennys_Jun_Takao.ConsoleApp
             }
 
             Console.WriteLine(_cr.AvaliacaoTecnica2(listaNum));
+        }
+
+        private void AvaliacaoTecnica3()
+        {
+            //A sequência de Fibonacci é definida pela relação:
+            //F n = F n - 1 + F n - 2 onde F 1 = 1 e F 2 = 1
+            //Assim, os primeiros 12 elementos são:
+            //F 1 = 1                       //F 7 = 13
+            //F 2 = 1                       //F 8 = 21
+            //F 3 = 2                       //F 9 = 34
+            //F 4 = 3                       //F 10 = 55
+            //F 5 = 5                       //F 11 = 89
+            //F 6 = 8                       //F 12 = 144
+            //Escreva uma função que retorna o primeiro elemento da sequência de Fibonacci com 5 dígitos.
+
+            Console.WriteLine("Avaliação técnica 3");
+
+            Console.WriteLine(_cr.AvaliacaoTecnica3(1, 1));
         }
         #endregion
     }

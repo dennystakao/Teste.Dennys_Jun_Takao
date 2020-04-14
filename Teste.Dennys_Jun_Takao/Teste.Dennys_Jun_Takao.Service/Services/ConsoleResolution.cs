@@ -34,5 +34,11 @@ namespace Teste.Dennys_Jun_Takao.Service.Services
                 total = total + item * item;
             return total;
         }
+
+        public int AvaliacaoTecnica3(int numA, int fibonacci)
+        {
+            if (fibonacci < 10000) return AvaliacaoTecnica3(fibonacci, fibonacci+ numA);
+            else return fibonacci;
+        }
     }
 }
