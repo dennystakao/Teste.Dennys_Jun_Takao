@@ -26,5 +26,13 @@ namespace Teste.Dennys_Jun_Takao.Service.Services
 
             return retorno;
         }
+
+        public int AvaliacaoTecnica2(List<int> listaNum)
+        {
+            int total = 0;
+            foreach (var item in listaNum)
+                total = total + item * item;
+            return total;
+        }
     }
 }
