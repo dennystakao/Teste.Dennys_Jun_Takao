@@ -1,0 +1,9 @@
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Service\bin\Debug\Teste.Dennys_Jun_Takao.Service.dll
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Service\bin\Debug\Teste.Dennys_Jun_Takao.Service.pdb
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Service\bin\Debug\FluentValidation.dll
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Service\bin\Debug\Teste.Dennys_Jun_Takao.Domain.dll
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Service\bin\Debug\Teste.Dennys_Jun_Takao.Domain.pdb
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Service\bin\Debug\FluentValidation.xml
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Service\obj\Debug\Teste.Dennys_Jun_Takao.Service.csprojResolveAssemblyReference.cache
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Service\obj\Debug\Teste.Dennys_Jun_Takao.Service.dll
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Service\obj\Debug\Teste.Dennys_Jun_Takao.Service.pdb

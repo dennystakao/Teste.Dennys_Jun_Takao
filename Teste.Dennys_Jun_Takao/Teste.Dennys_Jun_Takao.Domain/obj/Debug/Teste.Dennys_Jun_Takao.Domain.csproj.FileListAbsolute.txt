@@ -1,0 +1,7 @@
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Domain\bin\Debug\Teste.Dennys_Jun_Takao.Domain.dll
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Domain\bin\Debug\Teste.Dennys_Jun_Takao.Domain.pdb
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Domain\bin\Debug\FluentValidation.dll
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Domain\bin\Debug\FluentValidation.xml
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Domain\obj\Debug\Teste.Dennys_Jun_Takao.Domain.csprojResolveAssemblyReference.cache
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Domain\obj\Debug\Teste.Dennys_Jun_Takao.Domain.dll
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.Domain\obj\Debug\Teste.Dennys_Jun_Takao.Domain.pdb
