@@ -19,10 +19,11 @@ namespace Teste.Dennys_Jun_Takao.ConsoleApp
         {
             Program p = new Program();
 
-            p.AvaliacaoTecnica1();
-            p.SomaDeQuadrados();
-            p.AvaliacaoTecnica3();
-            p.AvaliacaoTecnica4();
+            //p.AvaliacaoTecnica1();
+            //p.SomaDeQuadrados();
+            //p.AvaliacaoTecnica3();
+            //p.AvaliacaoTecnica4();
+            p.AvaliacaoTecnica5();
 
             Console.ReadKey();
         }
@@ -93,8 +94,39 @@ namespace Teste.Dennys_Jun_Takao.ConsoleApp
             Console.WriteLine("Avaliação técnica 4");
 
             Console.WriteLine("Digite um Nó (Número Inteiro):");
-            Console.Write("[" +  _cr.AvaliacaoTecnica4(Convert.ToInt32(Console.ReadLine())) + "]");
+            Console.Write("[" + _cr.AvaliacaoTecnica4(Convert.ToInt32(Console.ReadLine())) + "]");
 
+        }
+
+        private void AvaliacaoTecnica5()
+        {
+            //Utilizando a função:
+            //function acumular(combiner, nullValue, list)
+            // {
+            //     if (list.length == 0)
+            //     {
+            //         return nullValue;
+            //     }
+            //     var primeiro = list.removePrimeiro();
+            //     return combiner(primeiro, acumular(combiner, nullValue, list));
+            // }
+            // Neste caso a função acumular deve ser utilizada.A variável “combiner” é um “ponteiro para função”. A implementação da função “combiner” faz parte da solução.
+            string str = "";
+            List<string> listaStr = new List<string>();
+
+            Console.WriteLine("Avaliação técnica 5");
+
+            while (str != "0")
+            {
+                Console.WriteLine("Digite uma palavra(Digite 0 para encerrar):");
+                str = Console.ReadLine();
+                if (str != "0")
+                    listaStr.Add(str);
+            }
+
+           
+
+            Console.WriteLine(_cr.AvaliacaoTecnica5(listaStr));
         }
         #endregion
     }

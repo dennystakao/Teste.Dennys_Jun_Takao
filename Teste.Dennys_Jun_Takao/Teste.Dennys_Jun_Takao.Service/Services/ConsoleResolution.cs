@@ -73,5 +73,10 @@ namespace Teste.Dennys_Jun_Takao.Service.Services
             Array.Reverse(intArr);
             return string.Join(",", intArr);
         }
+
+        public string AvaliacaoTecnica5(List<string> listaStr)
+        {
+            return _cv.Acumular(listaStr);
+        }
     }
 }
