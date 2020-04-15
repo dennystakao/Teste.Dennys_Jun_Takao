@@ -74,6 +74,11 @@ namespace Teste.Dennys_Jun_Takao.Service.Services
             return string.Join(",", intArr);
         }
 
+        public string AvaliacaoTecnica5(List<string> listaStr)
+        {
+            return _cv.Acumular(listaStr);
+        }
+
         public int AvaliacaoTecnica6(string palavraTriangulo)
         {
             int somaPalavra = 0, numero = 1;
