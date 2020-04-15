@@ -23,6 +23,7 @@ namespace Teste.Dennys_Jun_Takao.ConsoleApp
             p.SomaDeQuadrados();
             p.AvaliacaoTecnica3();
             p.AvaliacaoTecnica4();
+            p.AvaliacaoTecnica6();
 
             Console.ReadKey();
         }
@@ -93,7 +94,30 @@ namespace Teste.Dennys_Jun_Takao.ConsoleApp
             Console.WriteLine("Avaliação técnica 4");
 
             Console.WriteLine("Digite um Nó (Número Inteiro):");
-            Console.Write("[" +  _cr.AvaliacaoTecnica4(Convert.ToInt32(Console.ReadLine())) + "]");
+            Console.Write("[" + _cr.AvaliacaoTecnica4(Convert.ToInt32(Console.ReadLine())) + "]");
+
+        }
+
+        private void AvaliacaoTecnica6()
+        {
+            //O termo da sequência de “números triângulo” é dado pela fórmula:
+
+            //Portanto os primeiros números da sequência são:
+
+            //1, 3, 6, 10, 15, 21, 28, 36, 45, 55, ...
+
+            //Convertendo cada letra de uma palavra no número correspondendo a posição no alfabeto e adicionando os valores, nós obtemos o valor de uma palavra.
+            //Por exemplo, o valor da palavra SKY é 19 + 11 + 25 = 55.
+            //Se o valor da palavra é um “número triangulo”, então a palavra é chamada “palavra triângulo”.
+            //Escreva uma função que retorna à posição da sequência dado uma palavra ou - 1 se a palavra não for uma palavra triângulo.
+            //int palavraTriangulo(string palavra);
+            //palavraTriangulo(“SKY”) retorna 10.
+            //palavraTriangulo(“ASDF”) retorna - 1
+
+            Console.WriteLine("Avaliação técnica 6");
+
+            Console.WriteLine("Digite uma palavra triangulo:");
+            Console.Write(_cr.AvaliacaoTecnica6(Console.ReadLine()));
 
         }
         #endregion

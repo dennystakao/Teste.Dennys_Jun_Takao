@@ -73,5 +73,26 @@ namespace Teste.Dennys_Jun_Takao.Service.Services
             Array.Reverse(intArr);
             return string.Join(",", intArr);
         }
+
+        public int AvaliacaoTecnica6(string palavraTriangulo)
+        {
+            int somaPalavra = 0, numero = 1;
+            int numeroTrangulo = (numero * (numero + 1)) / 2;
+            char[] characters = palavraTriangulo.ToCharArray();
+
+            foreach (char oneChar in characters)
+                somaPalavra += ((int)char.ToUpper(oneChar)) - 64;
+
+            while (somaPalavra > numeroTrangulo)
+            {
+                numero++;
+                numeroTrangulo = (numero * (numero + 1)) / 2;
+            }
+
+            if (somaPalavra == numeroTrangulo)
+                return numero;
+
+            return -1;
+        }
     }
 }
