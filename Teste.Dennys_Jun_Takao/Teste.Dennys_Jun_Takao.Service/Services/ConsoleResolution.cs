@@ -3,11 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Teste.Dennys_Jun_Takao.Domain.Entities;
+using Teste.Dennys_Jun_Takao.Domain.Repository;
+using Teste.Dennys_Jun_Takao.Service.Validators;
 
 namespace Teste.Dennys_Jun_Takao.Service.Services
 {
     public class ConsoleResolution
     {
+        BaseRepository<Arvore> _baseArvore = new BaseRepository<Arvore>();
+        ConsoleValidation _cv = new ConsoleValidation();
+
         public List<string> AvaliacaoTecnica1(string nome, string sobreNome)
         {
             List<string> retorno = new List<string>();
@@ -37,8 +43,35 @@ namespace Teste.Dennys_Jun_Takao.Service.Services
 
         public int AvaliacaoTecnica3(int numA, int fibonacci)
         {
-            if (fibonacci < 10000) return AvaliacaoTecnica3(fibonacci, fibonacci+ numA);
+            if (fibonacci < 10000) return AvaliacaoTecnica3(fibonacci, fibonacci + numA);
             else return fibonacci;
+        }
+
+        public string AvaliacaoTecnica4(int noParametro)
+        {
+            Arvore a = _baseArvore.GerarArvore();
+            int noAtual = 0;
+            int[] intArr = new int[0];
+            int count = 0;
+            Arvore no = new Arvore();
+
+            while (noAtual != a.Id && a.Id != noParametro && noParametro > 0)
+            {
+                Array.Resize(ref intArr, intArr.Length + 1);
+                intArr[count] = noParametro;
+                count++;
+                _cv.VerificarNos(ref no, a, noParametro);
+                noParametro = no.Id;
+                noAtual = no.Id;
+            }
+
+            if (noParametro == 0)
+                return "";
+
+            Array.Resize(ref intArr, intArr.Length + 1);
+            intArr[count] = a.Id;
+            Array.Reverse(intArr);
+            return string.Join(",", intArr);
         }
     }
 }

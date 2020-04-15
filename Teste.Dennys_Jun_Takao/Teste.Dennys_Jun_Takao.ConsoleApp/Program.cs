@@ -22,6 +22,7 @@ namespace Teste.Dennys_Jun_Takao.ConsoleApp
             p.AvaliacaoTecnica1();
             p.SomaDeQuadrados();
             p.AvaliacaoTecnica3();
+            p.AvaliacaoTecnica4();
 
             Console.ReadKey();
         }
@@ -83,6 +84,17 @@ namespace Teste.Dennys_Jun_Takao.ConsoleApp
             Console.WriteLine("Avaliação técnica 3");
 
             Console.WriteLine(_cr.AvaliacaoTecnica3(1, 1));
+        }
+
+        private void AvaliacaoTecnica4()
+        {
+            //Escrever uma função que recebe uma árvore e um id e retorna um vetor com os ids do caminho desde o nó raiz até o nó passado como parâmetro.
+
+            Console.WriteLine("Avaliação técnica 4");
+
+            Console.WriteLine("Digite um Nó (Número Inteiro):");
+            Console.Write("[" +  _cr.AvaliacaoTecnica4(Convert.ToInt32(Console.ReadLine())) + "]");
+
         }
         #endregion
     }
