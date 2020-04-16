@@ -29,6 +29,10 @@ C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebS
 C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\System.Web.Webpages.Deployment.dll
 C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\System.Web.Webpages.dll
 C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\System.Web.Webpages.Razor.dll
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\Teste.Dennys_Jun_Takao.Service.dll
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\Teste.Dennys_Jun_Takao.Domain.dll
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\FluentValidation.dll
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\Teste.Dennys_Jun_Takao.Service.pdb
 C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\Microsoft.AI.DependencyCollector.xml
 C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\Microsoft.AI.Web.xml
@@ -41,12 +45,8 @@ C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebS
 C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\System.Web.Webpages.Razor.xml
 C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\System.Web.Helpers.xml
 C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\System.Web.Mvc.xml
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\Teste.Dennys_Jun_Takao.Domain.pdb
+C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\FluentValidation.xml
 C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\obj\Debug\Teste.Dennys_Jun_Takao.WebSiteTeste.csprojResolveAssemblyReference.cache
 C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\obj\Debug\Teste.Dennys_Jun_Takao.WebSiteTeste.dll
 C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\obj\Debug\Teste.Dennys_Jun_Takao.WebSiteTeste.pdb
-C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\Teste.Dennys_Jun_Takao.Service.dll
-C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\Teste.Dennys_Jun_Takao.Domain.dll
-C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\FluentValidation.dll
-C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\Teste.Dennys_Jun_Takao.Service.pdb
-C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\Teste.Dennys_Jun_Takao.Domain.pdb
-C:\Dev\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao\Teste.Dennys_Jun_Takao.WebSiteTeste\bin\FluentValidation.xml
