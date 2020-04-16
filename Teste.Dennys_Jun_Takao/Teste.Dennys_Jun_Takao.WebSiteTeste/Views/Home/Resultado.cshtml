@@ -1,0 +1,35 @@
+﻿@model  Teste.Dennys_Jun_Takao.WebSiteTeste.Models.ResultadoVm
+@{
+    ViewBag.Title = "Resultado";
+}
+
+<h2>Resultado</h2>
+
+<div class="row">
+    <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-xs-12 containerTexto">
+        @using (Html.BeginForm())
+        {
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-right">
+                    @Html.LabelFor(x => x.PalavraTriangulo, "Digite uma Palavra")
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    @Html.TextBoxFor(x => x.PalavraTriangulo, new { @class = "form-control" })
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" style="align-self: flex-end;">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Calcular Resultado</button>
+                </div>
+            </div>
+        }
+        @if (Model.Resultado != null)
+        {
+            <br />
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                    <h3><b>Resultado</b></h3>
+                    A “palavra triângulo” <b>@Model.PalavraTriangulo</b> retorna o numero <b>@Model.Resultado</b>
+                </div>
+            </div>
+        }
+    </div>
+</div>
